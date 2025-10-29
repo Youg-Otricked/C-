@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="cpp.css">
 </head>
 <body>
-    <p>C++ test</p>
-    <a href="index.html">Back</a>
+    <div id="left">
+        <p>C++ is a incredibly fast, staticly types, manualy memory managed language. <br>It is used nativly in unreal engine, meaning almost all AAA games are coded in C++.</p>
+    <div id="right">
+        <p>Select what is True about C++</p>
+        <button onclick="incorrect()">A: C++ is Dynamicly typed.</button><br>
+        <button onclick="incorrect()">B: C++ is Garbage collected</button><br>
+        <button onclick="correct()">C: C++ is Fast</button><br>
+        <button onclick="incorrect()">D: C++ is native to Untiy engine</button>
+        <p id="fail"></p>
+        <p id="win"></p>
+        <br>
+        <a id="nl" href="cpp2.html"></a>
+    </div>
+    </div>
+    <a id="back"href="index.html">Back</a>
 </body>
 </html>

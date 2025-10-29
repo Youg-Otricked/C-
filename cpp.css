@@ -1,0 +1,35 @@
+#left {
+    text-align: left;
+}
+
+#right {
+    text-align: right;
+}
+
+button {
+    height: 30px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+#fail {
+    color: red;
+}
+
+#win {
+    color: lime;
+}
+
+#back {
+    color: blueviolet;
+    background-color: tan;
+    border: 3px solid black;
+
+}
+
+#nl.active {
+    color: gold;
+    background-color: maroon;
+    border: 3px solid black;
+
+}
