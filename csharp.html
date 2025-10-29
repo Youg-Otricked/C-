@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="cpp.css">
 </head>
+
 <body>
-    <p>C# test</p>
-    <a href="index.html">Back</a>
+    <div id="left">
+        <p>in C#, to open a file you need to start with a namespace, then inside the namespace you define a class, and the nfinaly in the class you define the main function. eg namespace Namespace1{class Program{static void main(string args[]){code goes hear}}}</p>
+        <div id="right">
+            <p>Select what is False about C#</p>
+            <button onclick="incorrect()">A: You must define a Main function.</button><br>
+            <button onclick="incorrect()">B: You must create a namespace</button><br>
+            <button onclick="incorrect()">C: You must create a opening class</button><br>
+            <button onclick="correct()">D: You must use the system lib</button>
+            <p id="fail"></p>
+            <p id="win"></p>
+            <br>
+            <a id="nl" href="csharp2.html"></a>
+        </div>
+    </div>
+    <a id="back" href="index.html">Back</a>
 </body>
+
 </html>
