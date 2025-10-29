@@ -1,0 +1,13 @@
+.link-row {
+    display: flex;
+    justify-content: space-between;
+    /* optional width limit */
+    max-width: 600px;
+    margin: 0 auto;
+    n: left;
+}
+
+
+#bd {
+    text-align: center;
+}
